@@ -1,0 +1,9 @@
+<div class="atm-tx-editor-wrapper">
+    <div class="atm-tx-editor" 
+    ng-class="{'atm-tx-editor-normal': !$ctrl.isBig,
+               'atm-tx-editor-big': $ctrl.isBig,
+               'atm-tx-editor-expanded': $ctrl.isBig}">
+    <img src="" class="atm-tx-icon" ng-click="$ctrl.clickIcon()"/>
+    <textarea id="demo" class="atm-textarea-normal"></textarea>
+  </div>
+</div>

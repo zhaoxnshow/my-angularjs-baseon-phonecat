@@ -1,0 +1,9 @@
+.parent-div {
+  border: solid 1px red;
+}
+.child-div {
+  border: solid 1px blue;
+}
+.third-div {
+   border: solid 1px green;
+}

@@ -1,0 +1,26 @@
+<!-- <div ng-controller="MainCtrl as ctrl"> -->
+<div>
+  <b>Hero</b><br>
+  <div class='parent-div'>
+    <div>I am parent......</div>
+    <div>My parent name is: {{ $ctrl.hero.name }}</div>
+    <div>My parent sex is: {{ $ctrl.sex }}</div>
+  </div>  
+  <br>  
+  <div class="child-div">
+    <div>I am child......</div>
+    <!-- <hero-detail hero="$ctrl.hero" sex="$ctrl.sex" comment="{{$ctrl.comment}}"></hero-detail> -->
+    <hero-detail hero="$ctrl.hero" sex="$ctrl.sex" comment="Hello World!"></hero-detail>
+  </div>
+  <br>  
+  <div class="third-div">
+    <div>I am textareafullscreen......</div>
+    <atm-textarea-fullscreen></atm-textarea-fullscreen>
+  </div>
+  <br> 
+  <div class='parent-div'>
+    <div>I am div4......</div>
+    <div ng-bind="divValue"></div>
+  </div>  
+  <br> 
+</div>
